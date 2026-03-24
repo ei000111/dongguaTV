@@ -1,16 +1,52 @@
 {
-    "sites": [
-        {
-            "key": "example1",
-            "name": "示例站点1 (请填写API)",
-            "api": "",
-            "active": true
-        },
-        {
-            "key": "example2",
-            "name": "示例站点2 (请填写API)",
-            "api": "",
-            "active": true
-        }
-    ]
+  "sites": [
+    {
+      "key": "unique_key1",       // 唯一标识符（英文字母，不可重复）
+      "name": "天涯资源",         // 显示在界面的名称
+      "api": "https://tyyszy.com/api.php/provide/vod",      // Maccms V10/JSON 接口地址
+      "active": true             // 是否启用 (true/false)
+    },
+    {
+      "key": "unique_key2",       // 唯一标识符（英文字母，不可重复）
+      "name": "如意资源",         // 显示在界面的名称
+      "api": "https://cj.rycjapi.com/api.php/provide/vod",      // Maccms V10/JSON 接口地址
+      "active": true             // 是否启用 (true/false)
+    },
+    {
+      "key": "unique_key3",       // 唯一标识符（英文字母，不可重复）
+      "name": "暴风资源",         // 显示在界面的名称
+      "api": "https://bfzyapi.com/api.php/provide/vod",      // Maccms V10/JSON 接口地址
+      "active": true             // 是否启用 (true/false)
+    },
+    {
+      "key": "unique_key4",       // 唯一标识符（英文字母，不可重复）
+      "name": "电影天堂资源",         // 显示在界面的名称
+      "api": "http://caiji.dyttzyapi.com/api.php/provide/vod",      // Maccms V10/JSON 接口地址
+      "active": true             // 是否启用 (true/false)
+    },
+    {
+      "key": "unique_key5",       // 唯一标识符（英文字母，不可重复）
+      "name": "非凡资源",         // 显示在界面的名称
+      "api": "https://cj.ffzyapi.com/api.php/provide/vod",      // Maccms V10/JSON 接口地址
+      "active": true             // 是否启用 (true/false)
+    },
+    {
+      "key": "unique_key6",       // 唯一标识符（英文字母，不可重复）
+      "name": "七七影视",         // 显示在界面的名称
+      "api": "https://www.qiqidys.com/api.php/provide/vod/",      // Maccms V10/JSON 接口地址
+      "active": true             // 是否启用 (true/false)
+    },
+    {
+      "key": "unique_key7",       // 唯一标识符（英文字母，不可重复）
+      "name": "影视工厂",         // 显示在界面的名称
+      "api": "https://cj.lziapi.com/api.php/provide/vod/",      // Maccms V10/JSON 接口地址
+      "active": true             // 是否启用 (true/false)
+    },
+    {
+      "key": "unique_key8",       // 唯一标识符（英文字母，不可重复）
+      "name": "饭团影视",         // 显示在界面的名称
+      "api": "https://www.fantuan.tv/api.php/provide/vod/",      // Maccms V10/JSON 接口地址
+      "active": true             // 是否启用 (true/false)
+    }
+  ]
 }
